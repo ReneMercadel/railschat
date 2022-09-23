@@ -1,0 +1,5 @@
+<div id="messages"> 
+  <%= render "messages/form", room: room %>
+  <%# below is a rails shortcut that will render _message partials %>
+  <%= render room.messages %>
+</div>
